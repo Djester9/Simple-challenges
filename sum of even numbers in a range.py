@@ -9,8 +9,8 @@ num = (int(num))
 num += 1 #adding one number to users num to make more user friendly. (as range only goes upto to but does not include picked num 
 
 for e in range(1, num):
-    if e % 2 == 0:
-        sum += e
+    if e % 2 == 0: #check if some is even
+        sum += e #if even this runs
         
         
 print(sum)
